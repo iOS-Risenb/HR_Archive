@@ -1,11 +1,11 @@
-use_frameworks!
+
 
 target 'HR_Archive_Example' do
   pod 'HR_Archive', :path => '../'
 
+
+
   target 'HR_Archive_Tests' do
     inherit! :search_paths
-
-    
   end
 end
